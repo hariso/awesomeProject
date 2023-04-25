@@ -12,19 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package awesomeProject
+package main
 
 import (
 	"fmt"
 
-	sdk "github.com/conduitio/conduit-connector-sdk"
-	dbsql "github.com/databricks/databricks-sql-go"
+	"github.com/conduitio/conduit-connector-sdk"
+	"github.com/databricks/databricks-sql-go"
 )
 
 func main() {
-	d := make(sdk.StructuredData)
-	v := dbsql.DriverVersion
-
-	fmt.Println(d)
-	fmt.Println(v)
+	fmt.Println(make(sdk.StructuredData))
+	fmt.Println(dbsql.DriverVersion)
 }
