@@ -1,0 +1,8 @@
+linters-settings:
+  gofmt:
+    simplify: false
+
+linters:
+  disable-all: true
+  enable:
+    - goimports
