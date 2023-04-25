@@ -17,8 +17,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/conduitio/conduit-connector-sdk"
-	"github.com/databricks/databricks-sql-go"
+	sdk "github.com/conduitio/conduit-connector-sdk"
+	dbsql "github.com/databricks/databricks-sql-go"
 )
 
 func main() {
